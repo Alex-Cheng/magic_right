@@ -12,24 +12,29 @@ update copyright headers.
   
 ## Usage
 
-you can call the tool from the console with default parameters like so
+Start command-line window with Ruby. 
+
+![ScreenShot](https://raw.github.com/Alex-Cheng/magic_right/master/snapshot.png)
+
+You can call the tool from the command-line window with default parameters like so
 
 ```dos
+  cd /path/to/your/working_directory
   ruby /path/to/magic_right.rb
 ```
 
-this will update every writable ".cs" file in the working directory (recursively) with the following line :
+This will update every writable ".cs" file in the working directory (recursively) with the following line :
 
   Copyright (C) <current year> by Autodesk, Inc. All Rights Reserved.
 
 Notes : 
-- existing copyright comments are replaced
-- the rest of the file remains unchanged
+- Existing copyright comments are replaced
+- The rest of the file remains unchanged
 
-you can also specify the working directory in argument in command-line
+You can also specify the working directory in argument in command-line
 
 ```dos
-  ruby /path/to/magic_right.rb <specified directory's path>
+  ruby /path/to/magic_right.rb </path/to/your/working_directory>
 ```
   
 ## Acknowledge
