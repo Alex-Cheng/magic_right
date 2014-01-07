@@ -25,7 +25,7 @@ You can call the tool from the command-line window with default parameters like 
 
 This will update every writable ".cs" file in the working directory (recursively) with the following line :
 
-  Copyright (C) <current year> by Autodesk, Inc. All Rights Reserved.
+  Copyright (C) #{Year} by Autodesk, Inc. All Rights Reserved.
 
 Notes : 
 - Existing copyright comments are replaced
